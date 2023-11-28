@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+  <meta charset="utf-8"/>
+  <title>入力画面</title>
+   <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+ <div class="twotonecolor_vertical">
+ 	<div class="font">
+  <h2>◎　今日のやることリストを更新します</h2>
+  <form action="/todolist/ToDoServlet" method="post">
+  番号　<input type="text" class="txt" name="No" />
+  やること　<input type="text" name="action" />
+  どこで　<input type="text" name="place" /><br /><br />
+　<input type="submit" name="btn" value="追加" />
+  <input type="submit" name="btn" value="修正" />
+  <input type="submit" name="btn" value="削除" />
+  <input type="submit" name="btn" value="表示" />
+  </form>
+	</div>
+</div>
+</body>
+</html>
